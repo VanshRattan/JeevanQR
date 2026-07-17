@@ -96,22 +96,7 @@ http://localhost:5000
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home.png)
-
-### 📱 QR Generation
-![QR Generation](screenshots/qr-generation.png)
-
-### 🚑 Emergency Information
-![Emergency Information](screenshots/emergency-info.png)
-
-### 📍 Accident Location Sharing
-![Location Sharing](screenshots/location-sharing.png)
-
-### 📸 Accident Photo Upload
-![Photo Upload](screenshots/photo-upload.png)
-
-### 🌐 Hindi Interface
-![Hindi Interface](screenshots/hindi-interface.png)
+<img width="695" height="840" alt="image" src="https://github.com/user-attachments/assets/80184ddc-a1f2-455d-a123-44743eb3b1bb" />
 
 ---
 
