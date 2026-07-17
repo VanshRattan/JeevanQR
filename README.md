@@ -38,11 +38,6 @@
 - CSS
 - JavaScript
 
-### Libraries & Tools
-- `qrcode` – QR code generation
-- `multer` – Photo upload handling
-- `cors` – Cross-origin resource sharing
-- `body-parser` – Request body parsing
 
 ### Deployment
 - Vercel (Serverless Deployment)
