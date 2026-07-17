@@ -105,6 +105,5 @@ http://localhost:5000
 
 ### 🚑 Every Scan Could Save a Life.
 
-⭐ If you found this project useful, consider giving it a star!
 
 </div>
