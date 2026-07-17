@@ -3,16 +3,11 @@
 > **Your Digital Lifesaver in Emergencies**
 >
 > JeevanQR is a QR-based emergency assistance platform that provides instant access to critical information during emergencies. By simply scanning a QR code, first responders, bystanders, or family members can quickly access emergency details, contact loved ones, share accident locations, and receive immediate assistance.
-
 <p align="center">
   <a href="https://jeevan-qr-tmfm.vercel.app/">
     <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-blue?style=for-the-badge"/>
   </a>
-  <a href="https://github.com/VanshRattan/JeevanQR">
-    <img src="https://img.shields.io/github/stars/VanshRattan/JeevanQR?style=for-the-badge"/>
-  </a>
 </p>
-
 🌐 **Live Demo:** https://jeevan-qr-tmfm.vercel.app/
 
 ---
