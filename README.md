@@ -2,34 +2,59 @@
 
 > **Your Digital Lifesaver in Emergencies**
 >
-> A QR-based emergency healthcare platform that provides instant access to critical medical information, enabling faster and more informed medical assistance when every second matters.
+> JeevanQR is a QR-based emergency assistance platform that provides instant access to critical information during emergencies. By simply scanning a QR code, first responders, bystanders, or family members can quickly access emergency details, contact loved ones, share accident locations, and receive immediate assistance.
+
+<p align="center">
+  <a href="https://jeevan-qr-tmfm.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-blue?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/VanshRattan/JeevanQR">
+    <img src="https://img.shields.io/github/stars/VanshRattan/JeevanQR?style=for-the-badge"/>
+  </a>
+</p>
+
+🌐 **Live Demo:** https://jeevan-qr-tmfm.vercel.app/
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 🔐 **Secure Authentication** – User registration and login with protected routes.
-- 👤 **Medical Profile Management** – Store personal and medical information securely.
-- 💊 **Health Information Storage** – Save allergies, medications, blood group, and existing medical conditions.
-- 📞 **Emergency Contacts** – Add emergency contact details that can be accessed instantly.
-- 📱 **QR Code Generation** – Generate a unique QR code linked to your medical profile.
-- 🚑 **Instant Emergency Access** – First responders can scan the QR code to view critical information without requiring login.
-- ✏️ **Profile Updates** – Easily update medical records and emergency details.
-- 🔒 **Secure Data Management** – Sensitive information stored securely using authentication and database protection.
+- 📱 **QR-Based Emergency Information Access** – Scan a QR code to instantly access emergency details.
+- 🌐 **Bilingual Support** – Available in both **English** and **Hindi** for better accessibility.
+- 📞 **Emergency Contact Calling** – Quickly call saved emergency contacts with a single tap.
+- 🚑 **Government Helpline Access** – Direct access to important emergency helpline numbers.
+- 📍 **Accident Location Sharing** – Share live accident location to assist responders and family members.
+- 📸 **Accident Photo Capture** – Capture accident photos directly from the application.
+- 🔒 **Secure One-Time Photo Viewing** – Photos can be viewed securely only once through `photo-view.html`.
+- 🛡️ **Privacy Controls** – User-controlled privacy settings and data management.
+- 🗑️ **Delete Data Support** – Permanently remove stored user information whenever required.
+- ☁️ **Deployment Ready** – Designed with a **Vercel/serverless-friendly architecture** for seamless deployment.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JWT, bcrypt
-- **QR Generation:** QR Code Library
+### Backend
+- Node.js
+- Express.js
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Libraries & Tools
+- `qrcode` – QR code generation
+- `multer` – Photo upload handling
+- `cors` – Cross-origin resource sharing
+- `body-parser` – Request body parsing
+
+### Deployment
+- Vercel (Serverless Deployment)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run Locally
 
 ### 1. Clone the Repository
 
@@ -40,50 +65,71 @@ cd JeevanQR
 
 ### 2. Install Dependencies
 
-#### Frontend
-
 ```bash
-cd client
 npm install
-npm run dev
 ```
 
-#### Backend
+### 3. Create Environment Variables
 
-```bash
-cd server
-npm install
-npm start
-```
-
-### 3. Configure Environment Variables
-
-Create a `.env` file inside the `server` directory:
+Create a `.env` file:
 
 ```env
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-CLIENT_URL=http://localhost:5173
+BASE_URL=http://localhost:5000
+```
+
+### 4. Start the Application
+
+```bash
+npm start
+```
+
+or
+
+```bash
+node server.js
+```
+
+The application will be running on:
+
+```bash
+http://localhost:5000
 ```
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Landing Page
-![Landing Page](screenshots/landing-page.png)
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 📱 QR Generation
+![QR Generation](screenshots/qr-generation.png)
 
-### 👤 User Dashboard
-![Dashboard](screenshots/dashboard.png)
+### 🚑 Emergency Information
+![Emergency Information](screenshots/emergency-info.png)
 
-### 📱 QR Code Generation
-![QR Code](screenshots/qr-code.png)
+### 📍 Accident Location Sharing
+![Location Sharing](screenshots/location-sharing.png)
 
-### 🚑 Emergency Information Page
-![Emergency Page](screenshots/emergency-page.png)
+### 📸 Accident Photo Upload
+![Photo Upload](screenshots/photo-upload.png)
+
+### 🌐 Hindi Interface
+![Hindi Interface](screenshots/hindi-interface.png)
 
 ---
+
+## 🎯 Project Vision
+
+**JeevanQR aims to reduce emergency response time by providing immediate access to critical information, helping first responders and loved ones act quickly when every second matters.**
+
+---
+
+<div align="center">
+
+### 🚑 Every Scan Could Save a Life.
+
+⭐ If you found this project useful, consider giving it a star!
+
+</div>
